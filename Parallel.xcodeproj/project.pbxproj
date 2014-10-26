@@ -10,6 +10,11 @@
 		2DE8D37919FCD6B80023BB93 /* Parallel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE8D37819FCD6B80023BB93 /* Parallel.h */; };
 		2DE8D37B19FCD6B80023BB93 /* Parallel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8D37A19FCD6B80023BB93 /* Parallel.m */; };
 		2DE8D38119FCD6B80023BB93 /* libParallel.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE8D37519FCD6B80023BB93 /* libParallel.dylib */; };
+		2DE8D39119FCD6D80023BB93 /* ParallelThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE8D38F19FCD6D80023BB93 /* ParallelThread.h */; };
+		2DE8D39219FCD6D80023BB93 /* ParallelThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8D39019FCD6D80023BB93 /* ParallelThread.m */; };
+		2DE8D39519FCD7BE0023BB93 /* ParallelCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE8D39319FCD7BE0023BB93 /* ParallelCommand.h */; };
+		2DE8D39619FCD7BE0023BB93 /* ParallelCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8D39419FCD7BE0023BB93 /* ParallelCommand.m */; };
+		2DE8D39819FCE3320023BB93 /* ParallelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8D39719FCE3320023BB93 /* ParallelTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,11 @@
 		2DE8D37A19FCD6B80023BB93 /* Parallel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parallel.m; sourceTree = "<group>"; };
 		2DE8D38019FCD6B80023BB93 /* ParallelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE8D38619FCD6B80023BB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE8D38F19FCD6D80023BB93 /* ParallelThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallelThread.h; sourceTree = "<group>"; };
+		2DE8D39019FCD6D80023BB93 /* ParallelThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallelThread.m; sourceTree = "<group>"; };
+		2DE8D39319FCD7BE0023BB93 /* ParallelCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallelCommand.h; sourceTree = "<group>"; };
+		2DE8D39419FCD7BE0023BB93 /* ParallelCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallelCommand.m; sourceTree = "<group>"; };
+		2DE8D39719FCE3320023BB93 /* ParallelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParallelTests.m; path = ParallelTests/ParallelTests.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,10 @@
 			children = (
 				2DE8D37819FCD6B80023BB93 /* Parallel.h */,
 				2DE8D37A19FCD6B80023BB93 /* Parallel.m */,
+				2DE8D38F19FCD6D80023BB93 /* ParallelThread.h */,
+				2DE8D39019FCD6D80023BB93 /* ParallelThread.m */,
+				2DE8D39319FCD7BE0023BB93 /* ParallelCommand.h */,
+				2DE8D39419FCD7BE0023BB93 /* ParallelCommand.m */,
 			);
 			path = Parallel;
 			sourceTree = "<group>";
@@ -79,6 +93,7 @@
 		2DE8D38419FCD6B80023BB93 /* ParallelTests */ = {
 			isa = PBXGroup;
 			children = (
+				2DE8D39719FCE3320023BB93 /* ParallelTests.m */,
 				2DE8D38519FCD6B80023BB93 /* Supporting Files */,
 			);
 			path = ParallelTests;
@@ -100,6 +115,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE8D37919FCD6B80023BB93 /* Parallel.h in Headers */,
+				2DE8D39119FCD6D80023BB93 /* ParallelThread.h in Headers */,
+				2DE8D39519FCD7BE0023BB93 /* ParallelCommand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE8D39219FCD6D80023BB93 /* ParallelThread.m in Sources */,
 				2DE8D37B19FCD6B80023BB93 /* Parallel.m in Sources */,
+				2DE8D39619FCD7BE0023BB93 /* ParallelCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE8D39819FCE3320023BB93 /* ParallelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
