@@ -36,6 +36,8 @@
 
 - (NSString *)changeString
 {
+    [NSThread sleepForTimeInterval:0.5];
+    
     return (testString = @"changed");
 }
 
