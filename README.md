@@ -24,7 +24,6 @@ Here's an example:
                      onTarget:self
                  withCallback:^(id result){
         NSLog(@"done: %@", result);
-        [parallel cancel];
     }];
 
     NSLog(@"doing something that takes time...");

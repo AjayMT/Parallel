@@ -25,6 +25,7 @@
 
 - (void)execute
 {
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     id res = [target performSelector:selector];
     
     dispatch_async(dispatch_get_main_queue(), ^{
