@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE8D37919FCD6B80023BB93 /* Parallel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE8D37819FCD6B80023BB93 /* Parallel.h */; };
+		2DE8D37B19FCD6B80023BB93 /* Parallel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8D37A19FCD6B80023BB93 /* Parallel.m */; };
+		2DE8D38119FCD6B80023BB93 /* libParallel.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE8D37519FCD6B80023BB93 /* libParallel.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE8D38219FCD6B80023BB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE8D36D19FCD6B80023BB93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE8D37419FCD6B80023BB93;
+			remoteInfo = Parallel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE8D37519FCD6B80023BB93 /* libParallel.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libParallel.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE8D37819FCD6B80023BB93 /* Parallel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parallel.h; sourceTree = "<group>"; };
+		2DE8D37A19FCD6B80023BB93 /* Parallel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parallel.m; sourceTree = "<group>"; };
+		2DE8D38019FCD6B80023BB93 /* ParallelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE8D38619FCD6B80023BB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE8D37219FCD6B80023BB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE8D37D19FCD6B80023BB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE8D38119FCD6B80023BB93 /* libParallel.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE8D36C19FCD6B80023BB93 = {
+			isa = PBXGroup;
+			children = (
+				2DE8D37719FCD6B80023BB93 /* Parallel */,
+				2DE8D38419FCD6B80023BB93 /* ParallelTests */,
+				2DE8D37619FCD6B80023BB93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE8D37619FCD6B80023BB93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE8D37519FCD6B80023BB93 /* libParallel.dylib */,
+				2DE8D38019FCD6B80023BB93 /* ParallelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE8D37719FCD6B80023BB93 /* Parallel */ = {
+			isa = PBXGroup;
+			children = (
+				2DE8D37819FCD6B80023BB93 /* Parallel.h */,
+				2DE8D37A19FCD6B80023BB93 /* Parallel.m */,
+			);
+			path = Parallel;
+			sourceTree = "<group>";
+		};
+		2DE8D38419FCD6B80023BB93 /* ParallelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE8D38519FCD6B80023BB93 /* Supporting Files */,
+			);
+			path = ParallelTests;
+			sourceTree = "<group>";
+		};
+		2DE8D38519FCD6B80023BB93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE8D38619FCD6B80023BB93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DE8D37319FCD6B80023BB93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE8D37919FCD6B80023BB93 /* Parallel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DE8D37419FCD6B80023BB93 /* Parallel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE8D38919FCD6B80023BB93 /* Build configuration list for PBXNativeTarget "Parallel" */;
+			buildPhases = (
+				2DE8D37119FCD6B80023BB93 /* Sources */,
+				2DE8D37219FCD6B80023BB93 /* Frameworks */,
+				2DE8D37319FCD6B80023BB93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parallel;
+			productName = Parallel;
+			productReference = 2DE8D37519FCD6B80023BB93 /* libParallel.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		2DE8D37F19FCD6B80023BB93 /* ParallelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE8D38C19FCD6B80023BB93 /* Build configuration list for PBXNativeTarget "ParallelTests" */;
+			buildPhases = (
+				2DE8D37C19FCD6B80023BB93 /* Sources */,
+				2DE8D37D19FCD6B80023BB93 /* Frameworks */,
+				2DE8D37E19FCD6B80023BB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE8D38319FCD6B80023BB93 /* PBXTargetDependency */,
+			);
+			name = ParallelTests;
+			productName = ParallelTests;
+			productReference = 2DE8D38019FCD6B80023BB93 /* ParallelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE8D36D19FCD6B80023BB93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ajay Madhusudan";
+				TargetAttributes = {
+					2DE8D37419FCD6B80023BB93 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2DE8D37F19FCD6B80023BB93 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 2DE8D37019FCD6B80023BB93 /* Build configuration list for PBXProject "Parallel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DE8D36C19FCD6B80023BB93;
+			productRefGroup = 2DE8D37619FCD6B80023BB93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE8D37419FCD6B80023BB93 /* Parallel */,
+				2DE8D37F19FCD6B80023BB93 /* ParallelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE8D37E19FCD6B80023BB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE8D37119FCD6B80023BB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE8D37B19FCD6B80023BB93 /* Parallel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE8D37C19FCD6B80023BB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DE8D38319FCD6B80023BB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE8D37419FCD6B80023BB93 /* Parallel */;
+			targetProxy = 2DE8D38219FCD6B80023BB93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DE8D38719FCD6B80023BB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2DE8D38819FCD6B80023BB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DE8D38A19FCD6B80023BB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DE8D38B19FCD6B80023BB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DE8D38D19FCD6B80023BB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParallelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DE8D38E19FCD6B80023BB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParallelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE8D37019FCD6B80023BB93 /* Build configuration list for PBXProject "Parallel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE8D38719FCD6B80023BB93 /* Debug */,
+				2DE8D38819FCD6B80023BB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE8D38919FCD6B80023BB93 /* Build configuration list for PBXNativeTarget "Parallel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE8D38A19FCD6B80023BB93 /* Debug */,
+				2DE8D38B19FCD6B80023BB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DE8D38C19FCD6B80023BB93 /* Build configuration list for PBXNativeTarget "ParallelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE8D38D19FCD6B80023BB93 /* Debug */,
+				2DE8D38E19FCD6B80023BB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE8D36D19FCD6B80023BB93 /* Project object */;
+}
