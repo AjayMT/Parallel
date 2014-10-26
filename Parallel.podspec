@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 Parallel allows you to perform selectors on a background thread, without spawning a new thread every time you want to perform a selector. This is useful when you want to frequently perform tasks in the background and don't want to muck around with run loops.
                    DESC
-  s.homepage     = "http://github.com/AjayMT/Parallel"
+  s.homepage     = "https://github.com/AjayMT/Parallel"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ajay MT" => "ajay.tatachar@gmail.com" }
   s.social_media_url   = "http://twitter.com/ajaymadhusudan"
