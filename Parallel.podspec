@@ -13,7 +13,7 @@ Parallel allows you to perform selectors on a background thread, without spawnin
   s.author = { "Ajay MT" => "ajay.tatachar@gmail.com" }
   s.social_media_url = "https://twitter.com/ajaymadhusudan"
   s.platform = :osx, "10.9"
-  s.source = { :git => "http://github.com/AjayMT/Parallel.git", :tag => "0.0.1" }
+  s.source = { :git => "https://github.com/AjayMT/Parallel.git", :tag => "0.0.1" }
   s.source_files = "Parallel"
   s.exclude_files = "ParallelTests"
   s.requires_arc = true
