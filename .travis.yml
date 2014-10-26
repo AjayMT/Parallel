@@ -1,0 +1,4 @@
+
+language: objective-c
+xcode_project: Parallel.xcodeproj
+xcode_scheme: Parallel
