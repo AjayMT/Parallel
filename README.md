@@ -1,5 +1,7 @@
 
 # Parallel
+[![Build Status](https://travis-ci.org/AjayMT/Parallel.svg)](https://travis-ci.org/AjayMT/Parallel)
+
 Parallel allows you to perform selectors on a background thread and call callbacks after the selectors have been performed.
 
 Here's an example:
