@@ -23,7 +23,7 @@
 - (void)main
 {
     @autoreleasepool {
-        while (true) {
+        while (YES) {
             NSArray *cmds = commands;
             
             for (ParallelCommand *cmd in cmds) {

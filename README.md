@@ -48,14 +48,21 @@ Unlike `-[NSThread detachNewThread...]` and `-[NSObject performSelectorInBackgro
 You can take the whole thing and drop it in your project, or you can install it with [CocoaPods](http://cocoapods.org).
 
 ## API
-### `-[Parallel init]`
+### -[Parallel init]
 Initialize the Parallel object and start a beckground thread & event loop.
 
-### `-[Parallel performSelector:(SEL)sel onTarget:(id) target withCallback:(void (^)(id))callback]`
+### -[Parallel performSelector:(SEL)sel onTarget:(id) target withCallback:(void (^)(id))callback]
 Add a selector to the event queue. Once all selectors previously added have been performed, this selector (`sel`) is performed on `target` on the background thread. Once this selector has been performed, the callback block (`callback`) is called on the main thread and the next selector (if any) is performed. `callback` is called with one argument: the value returned by `sel`.
 
-### `-[Parallel cancel]`
+### -[Parallel cancel]
 End the event loop and kill the background thread.
+
+## Running tests
+Open the xcodeproj and hit Command-U. If you prefer the terminal, you can do this:
+
+```sh
+$ xcodebuild test -project Parallel.xcodeproj -scheme Parallel -destination 'platform=OS X,arch=x86_64'
+```
 
 ## License
 MIT License. See `./LICENSE` for details.

@@ -30,6 +30,7 @@
 
 - (void)cancel
 {
+    parallelThread.commands = [NSMutableArray array];
     [parallelThread cancel];
 }
 
